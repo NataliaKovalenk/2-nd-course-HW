@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    a{
-        text-decoration-line: none;
-    }
 }
+
+a{
+    text-decoration-line: none;
+}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -33,6 +35,7 @@
     line-height: 32px;
     color: #FFFFFF;
     max-width: 481px;
+    padding-top: 32px;
     }
     
 }
@@ -46,26 +49,42 @@
     line-height: 22px;
     color: #FFFFFF;
     margin-top: 44px;
+    padding: 13px 74px;
+    border: none;
     
+    &:hover{
+        cursor: pointer;
+    }
 }
-
-
 .games{
     background-color: #000915;
     padding-top: 128px;
     padding-bottom: 128px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 32px;
-        
+      
+    &__image{
+    border-radius: 19px;
+    transition: all 0.3s;
+    width: 379px;
+    height: 300px;
+    &:hover{
+        border: 3px solid #44D2FF;}
+    }
+    &__link{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color:#FFFFFF;
+    display: inline-block;
+    position: relative;
+    }
 
-&__image{
-    border-radius: 17px;
-}
-&__link{
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-color:#FFFFFF;
-
-}
+    &__text{
+    position: absolute;
+    top: 236px;
+    right: 268px;
+    }
 }
