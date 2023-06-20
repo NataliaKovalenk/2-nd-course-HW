@@ -18,6 +18,7 @@ a{
     background-size: cover;
     height: 1024px;
     padding-top: 217px;
+    box-sizing: border-box;
 
     &__heading{
         font-style: normal;
@@ -61,6 +62,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+    box-sizing: border-box;
       
     &__image{
     border-radius: 19px;
