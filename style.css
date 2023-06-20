@@ -27,7 +27,6 @@ a {
   line-height: 78px;
   color: #FFFFFF;
   max-width: 788px;
-  margin-top: 32px;
 }
 .top__text {
   font-style: normal;
@@ -52,9 +51,6 @@ a {
   padding: 13px 74px;
   border: none;
 }
-.button:hover {
-  cursor: pointer;
-}
 
 .games {
   background-color: #000915;
@@ -67,12 +63,6 @@ a {
 }
 .games__image {
   border-radius: 19px;
-  transition: all 0.3s;
-  width: 379px;
-  height: 300px;
-}
-.games__image:hover {
-  border: 3px solid #44D2FF;
 }
 .games__link {
   font-weight: 600;
@@ -81,9 +71,57 @@ a {
   color: #FFFFFF;
   display: inline-block;
   position: relative;
+  padding: 3px;
 }
 .games__text {
   position: absolute;
   top: 236px;
   right: 268px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    padding-top: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 735px;
+  }
+  .top__heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .button {
+    margin-top: 32px;
+  }
+  .games__text {
+    top: 243px;
+    right: 250px;
+  }
+  .games__image {
+    width: 343px;
+  }
+}
+@media (min-width: 768px) {
+  .button:hover {
+    cursor: pointer;
+  }
+  .games__image {
+    transition: all 0.4s;
+  }
+  .games__image:hover {
+    border: 3px solid #44D2FF;
+  }
 }/*# sourceMappingURL=style.css.map */

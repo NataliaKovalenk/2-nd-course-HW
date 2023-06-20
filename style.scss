@@ -26,7 +26,7 @@ a{
         line-height: 78px;
         color: #FFFFFF;
         max-width: 788px;
-        margin-top: 32px;
+        
            }
     &__text{
     font-style: normal;
@@ -52,9 +52,6 @@ a{
     padding: 13px 74px;
     border: none;
     
-    &:hover{
-        cursor: pointer;
-    }
 }
 .games{
     background-color: #000915;
@@ -67,11 +64,8 @@ a{
       
     &__image{
     border-radius: 19px;
-    transition: all 0.3s;
-    width: 379px;
-    height: 300px;
-    &:hover{
-        border: 3px solid #44D2FF;}
+   
+    
     }
     &__link{
     font-weight: 600;
@@ -80,6 +74,8 @@ a{
     color:#FFFFFF;
     display: inline-block;
     position: relative;
+    padding: 3px;
+    
     }
 
     &__text{
@@ -88,3 +84,6 @@ a{
     right: 268px;
     }
 }
+
+@import 'mobile';
+@import 'hover_desktop'
