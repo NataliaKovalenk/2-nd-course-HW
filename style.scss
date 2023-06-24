@@ -37,6 +37,7 @@ a{
     color: #FFFFFF;
     max-width: 481px;
     padding-top: 32px;
+    margin-bottom: 44px;
     }
     
 }
@@ -49,7 +50,6 @@ a{
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    margin-top: 44px;
     padding: 13px 74px;
     border: none;
     
@@ -86,6 +86,59 @@ a{
     right: 268px;
     }
 }
+// Для блока с играми "Времена года"
+
+.years{
+
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    max-width: 584px;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+
+  &__heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: left;
+    color: #FFFFFF;
+
+}  
+  &__text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+}
+.words{
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
 
 @import 'mobile';
 @import 'hover_desktop'
