@@ -19,6 +19,7 @@ a {
   background-size: cover;
   height: 1024px;
   padding-top: 217px;
+  box-sizing: border-box;
 }
 .top__heading {
   font-style: normal;
@@ -60,6 +61,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
+  box-sizing: border-box;
 }
 .games__image {
   border-radius: 19px;
@@ -107,7 +109,7 @@ a {
     margin-top: 32px;
   }
   .games__text {
-    top: 243px;
+    top: 214px;
     right: 250px;
   }
   .games__image {
