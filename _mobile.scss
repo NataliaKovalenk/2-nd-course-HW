@@ -45,6 +45,9 @@
     justify-content: space-around;
     
 }
+.words{
+  flex-direction: column-reverse;
+}
 
 .content{
     max-width: 343px;

@@ -114,17 +114,6 @@ a {
   color: #FFFFFF;
 }
 
-.words {
-  height: 800px;
-  background-color: #000915;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-}
-
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -166,6 +155,9 @@ a {
     flex-direction: column;
     justify-content: space-around;
   }
+  .words {
+    flex-direction: column-reverse;
+  }
   .content {
     max-width: 343px;
     display: flex;
@@ -193,6 +185,7 @@ a {
 @media (min-width: 768px) {
   .button:hover {
     cursor: pointer;
+    background: #EB443F;
   }
   .games__image {
     transition: all 0.4s;
